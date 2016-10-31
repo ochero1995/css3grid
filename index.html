@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    
+    <nav> 
+        <ul>
+          <li><a href="index.html">CSS3 Grid</a></li>
+          <li><a href="#about" id="myBtn">About</a></li>
+          <li><a href="https://github.com/ochero1995" target="_blank">Github</a></li>
+          <li class="right"><a href="http://www.andrewochero.com" target="_blank">Main Website</a></li>
+        </ul>
+    </nav><!-- Navigation-->
+
+    <header>
+        <h1>Responsive grid system</h1>
+    </header><!-- Banner-->
+
+
+
+    <section class="about">
+        <div class="row">
+            <div class="col twelve">
+                <article>
+                    <h1>About</h1>
+                    <a href="#close" id="close">X</a>
+                    <p>Custom CSS3 grid designed as substitute to utilising grids from other frameworks (Bootstrap,Foundation,etc...). This grid system is responsive and easily customizable for my project needs.</p>
+                </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col twelve">
+                <article>
+                    <h1>Instructions:</h1>
+                    <p>1. Download grid.css from git repository</p><br>
+                    <p>2. Add following markup to your html:</p><br>
+
+                    &lt;div class="row"&gt; <br>
+                    &nbsp;&nbsp;&nbsp; &lt;div class="col one"&gt;  content goes here &lt;/div&gt;<br>
+                    &nbsp;&nbsp;&nbsp; &lt;div class="col twelve"&gt;  content goes here &lt;/div&gt;<br>
+                      &lt;/div&gt;<br>
+
+
+                </article>
+            </div>
+        </div> 
+
+    </section><!-- About/instructions-->
+
+        
+    <section id="demo-area">
+        <div class="row">
+            <div class="col twelve"><h4>twelve</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col eleven"><h4>eleven</h4></div>
+            <div class="col one"><h4>one</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col ten"><h4>ten</h4></div>
+            <div class="col two"><h4>two</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col nine"><h4>nine</h4></div>
+            <div class="col three"><h4>three</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col eight"><h4>eight</h4></div>
+            <div class="col four"><h4>four</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col seven"><h4>seven</h4></div>
+            <div class="col five"><h4>five</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col six"><h4>six</h4></div>
+            <div class="col six"><h4>six</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col five"><h4>five</h4></div>
+            <div class="col seven"><h4>seven</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col four"><h4>four</h4></div>
+            <div class="col eight"><h4>eight</h4></div>
+        </div>
+        
+        <div class="row">
+            <div class="col three"><h4>three</h4></div>
+            <div class="col three"><h4>three</h4></div>
+            <div class="col three"><h4>three</h4></div>
+            <div class="col three"><h4>three</h4></div>
+        </div>
+        
+    </section><!-- Responsive grid system -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

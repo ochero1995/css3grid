@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+/*==============================
+
+    Row
+
+==============================*/
+
+
+.row{
+    padding: 20px;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+/*==============================
+
+    Column
+
+==============================*/
+
+.col{
+    background: #34495e;
+    min-height: 40px;
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    display: inline-block;
+    border-radius: 5px;
+    float: left;
+}
+
+.col:first-child{
+    margin-left: 0px;
+}
+
+.col:last-child{
+    margin-right: 0px;
+}
+
+.col.one{width: 3.9%;
+}
+
+.col.two{width: 12.66%;
+}
+
+.col.three{width: 21.4%;}
+
+.col.four{width: 30.13%;}
+
+.col.five{width: 38.867%;}
+
+.col.six{width: 47.6%;}
+
+.col.seven{width: 56.333%;}
+
+.col.eight{width: 65.07%;}
+
+.col.nine{width: 73.8%;}
+
+.col.ten{width: 82.533%;}
+
+.col.eleven{width: 91.27%;}
+
+.col.twelve{width: 100%;}
+
+/*==============================
+
+    Media query
+
+==============================*/
+
+
+
+@media screen and (max-width: 768px){
+    .col{
+        width: 100% !important;
+        margin: 5px 0px 5px 0px;
+    }
+}
